@@ -39,9 +39,6 @@ function map:generate(roomAmount)
 
     local rooms = {}
 
-    -- [DEBUG]
-    print("Number of rooms: " .. numOfRooms .. "\n")
-    print("max width: " .. maxWidth .. "\n")
 
     for i = 1, numOfRooms / 2 do
         for j = 1, numOfRooms / 2 do
